@@ -13,38 +13,52 @@ public class Unit0Tests {
      */
     public static void main (String args[]) {
       // Use main to test your methods
-      printHelloWorld();
+        printHelloWorld();
+        System.out.println(returnPrimitiveBooleanTrue());
+        System.out.println(returnPrimitiveInt1729());
+        System.out.println(returnPrimitiveDoubleThreePointOneFour());
+        System.out.println(returnPrimitiveCharZ());
     }
 
     public static void printHelloWorld() {
-      System.out.println("");
+      System.out.println("Hello, World!");
     }
 
-    public static Object returnPrimitiveBooleanTrue() {
-      return null;
+    public static boolean returnPrimitiveBooleanTrue() {
+      return true;
     }
 
-    public static Object returnPrimitiveInt1729() {
-      return null;
+    public static int returnPrimitiveInt1729() {
+        int x = 1729;
+        return x;
     }
 
-    public static Object returnPrimitiveDoubleThreePointOneFour() {
-      return null;
+    public static double returnPrimitiveDoubleThreePointOneFour() {
+        double y = 3.14;
+        return y;
     }
 
-    public static Object returnPrimitiveCharZ() {
-        return false;
+    public static char returnPrimitiveCharZ() {
+        char Z = 'Z';
+        return Z;
     }
 
-    public static void printSumOf1Upto10UsingForLoop() {
+    public static int printSumOf1Upto10UsingForLoop() {
+        for(int i = 0; i < 10; i++){
+
+        }
     }
 
     public static void printSumOf1Upto10000UsingForLoop() {
     }
 
-    public static boolean isOdd(int n) {
-      return false;
-    }
+    public static String isOdd(int n) {
+        //int n = 0;
+        if (n / 2 = 0){
+            String odd = "Your number is odd";
+        }
+        }return odd;
+    
 
     public static boolean isMultipleOfThree(int n) {
       return false;
@@ -76,13 +90,23 @@ public class Unit0Tests {
     public static Person declareAndReturnPersonNamedAlanTuringFromLondon() {
       return null;
     }
+        Person AlanTuring = new Person("Alan Turing","Queens");
+        return person;
 
-    public static boolean isFromLondon(Person person) {
-      return false;
+
+    )
+    public static ArrayList<String> isFromLondon(Person person) {
+      if(person.getCity() = "London"){
+        return false;
     }
 
     public static ArrayList<Place> declareAndReturnArrayListOfThreePlaces() {
-        return null;
+        ArrayList<String>citys = new ArrayList<String>();
+            citys.add("Queens");
+            citys.add("BK");
+            citys.add("Bx");
+
+            return citys;
     }
 
     public static HashMap<String, Person> declareAndReturnHashmapOfAlanTuringAndGraceHopper() {
